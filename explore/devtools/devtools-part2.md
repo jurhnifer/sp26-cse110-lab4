@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 type is a string, so the result becomes a string although it should've been an integer type to correctly calculate the sum. The variable result in calculateSum()should've been an integer type.
+2. To fix it, I would type cast the string to a number using Number().
